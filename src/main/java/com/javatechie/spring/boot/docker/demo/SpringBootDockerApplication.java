@@ -15,8 +15,8 @@ public class SpringBootDockerApplication {
         return "<html>" +
                 "<head>" +
                 "<style>" +
-                "html, body { height: 100%; margin: 0; }" +
-                "body { background-color: #f0f0f0; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; position: relative; }" +
+                "html, body { height: 100%; margin: 0; }" + // Ensure full height for html and body
+                "body { background-color: #f0f0f0; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; position: relative; height: 100%; }" + // Body takes full height and is centered
                 // Styling for the logo to place it in the top-left corner
                 ".logo { position: absolute; top: 10px; left: 10px; width: 150px; }" +
                 // Styling for the message container to center it
