@@ -11,7 +11,7 @@ public class SpringBootDockerApplication {
 
     @GetMapping("/message")
     public String getMessage() {
-        // Return an HTML string with background color for the entire page
+        // Return an HTML string with a complete background color for the entire page
         return "<html>" +
                 "<head>" +
                 "<style>" +
